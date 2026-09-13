@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>cihanlooxorg</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#050505;color:#eee;font-family:Arial,sans-serif}
+header{padding:25px 18px;text-align:center;border-bottom:1px solid #222;background:#080808}
+.logo{font-size:30px;font-weight:800;color:#fff}
+header p{color:#888;margin:8px 0 0}
+nav{display:flex;gap:8px;overflow:auto;padding:12px;background:#0b0b0b;border-bottom:1px solid #222}
+nav a{color:#aaa;text-decoration:none;white-space:nowrap;padding:9px 13px;border-radius:10px;background:#111}
+nav a:hover{background:#222;color:white}
+main{max-width:900px;margin:auto;padding:20px}
+.hero{padding:30px 20px;border:1px solid #222;border-radius:20px;background:linear-gradient(145deg,#111,#080808);margin-bottom:20px}
+.hero h1{font-size:32px;margin:0 0 10px}
+.hero p{color:#aaa;line-height:1.6}
+.btn{display:inline-block;background:#fff;color:#000;padding:12px 18px;border-radius:12px;text-decoration:none;font-weight:bold;margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+.card{background:#0d0d0d;border:1px solid #222;border-radius:17px;padding:20px;transition:.2s}
+.card:hover{transform:translateY(-3px);border-color:#444}
+.card h2{font-size:19px;margin-top:0}
+.card p{color:#999;line-height:1.5}
+.icon{font-size:28px}
+.section{margin-top:30px}
+.section h2{font-size:24px}
+.notice{padding:18px;border-left:3px solid #fff;background:#101010;border-radius:10px;color:#aaa;line-height:1.6}
+footer{text-align:center;padding:35px 20px;color:#666;border-top:1px solid #222;margin-top:30px}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">cihanlooxorg</div>
+<p>Yüz gelişimi • Anatomi • Bilgi • Topluluk</p>
+</header>
+
+<nav>
+<a href="#ana">Ana Sayfa</a>
+<a href="#genetik">Genetik</a>
+<a href="#anatomi">Anatomi</a>
+<a href="#gelisim">Gelişim</a>
+<a href="#yontemler">Yöntemler</a>
+<a href="#topluluk">Topluluk</a>
+</nav>
+
+<main>
+
+<section class="hero" id="ana">
+<h1>Yüzünü tanı, bilgini geliştir.</h1>
+<p>cihanlooxorg; yüz anatomisi, genetik farklılıklar, gelişim ve yaşam tarzı hakkında insanların birbirinden öğrenebileceği bir eğitim ve paylaşım platformudur.</p>
+<a class="btn" href="#konular">Konuları Keşfet →</a>
+</section>
+
+<section class="section" id="konular">
+<h2>📚 Eğitim Alanları</h2>
+
+<div class="grid">
+
+<div class="card" id="genetik">
+<div class="icon">🧬</div>
+<h2>Genetik & Yüz Yapısı</h2>
+<p>Genetik farklılıkların çene, burun, elmacık kemikleri ve genel yüz yapısıyla ilişkisini öğren.</p>
+</div>
+
+<div class="card" id="anatomi">
+<div class="icon">🦴</div>
+<h2>Yüz Anatomisi</h2>
+<p>Yüz kemikleri, kaslar ve farklı yüz bölgelerinin temel yapısını keşfet.</p>
+</div>
+
+<div class="card" id="gelisim">
+<div class="icon">📈</div>
+<h2>Yüz Gelişimi</h2>
+<p>Çocukluk ve ergenlik dönemlerinde yüzün doğal olarak nasıl geliştiğini öğren.</p>
+</div>
+
+<div class="card">
+<div class="icon">👤</div>
+<h2>Yüz Yapıları</h2>
+<p>Yuvarlak, uzun, geniş ve farklı yüz şekillerinin özelliklerini incele.</p>
+</div>
+
+<div class="card">
+<div class="icon">🧍</div>
+<h2>Duruş & Boyun</h2>
+<p>Duruşun ve boyun pozisyonunun yüz görünümüyle ilişkisi hakkında bilgi edin.</p>
+</div>
+
+<div class="card">
+<div class="icon">😴</div>
+<h2>Uyku & Yaşam Tarzı</h2>
+<p>Uyku, beslenme ve genel yaşam alışkanlıklarının gelişim üzerindeki rolünü öğren.</p>
+</div>
+
+<div class="card" id="yontemler">
+<div class="icon">💪</div>
+<h2>Yüz Egzersizleri</h2>
+<p>Yüz egzersizleri ve internetteki popüler yöntemlerin ne kadar kanıtlı olduğunu incele.</p>
+</div>
+
+<div class="card">
+<div class="icon">🧪</div>
+<h2>Bilimsel Kanıtlar</h2>
+<p>İnternette duyduğun yöntemleri bilimsel bilgilerle karşılaştır.</p>
+</div>
+
+<div class="card">
+<div class="icon">❌</div>
+<h2>Efsaneler / Gerçekler</h2>
+<p>Yüz gelişimi hakkında internette dolaşan yanlış bilgileri ayırt etmeyi öğren.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="topluluk">
+<h2>💬 Topluluk</h2>
+<div class="notice">
+<strong>İnsanlar birbirine yardımcı olsun.</strong><br><br>
+Kullanıcılar kendi deneyimlerini paylaşabilir, sorular sorabilir ve öğrendikleri bilgileri başkalarıyla paylaşabilir.
+<br><br>
+⚠️ Paylaşılan bilgiler kişisel deneyim olabilir; sağlık veya diş problemleri için uzman görüşü gerekir.
+</div>
+</section>
+
+<section class="section">
+<h2>🧠 cihanlooxorg'un amacı</h2>
+<div class="card">
+<p>Buradaki amaç insanları “iyi genetik” veya “kötü genetik” diye sınıflandırmak değil; herkesin yüz yapısının farklı olduğunu kabul ederek bilimsel ve güvenli bilgilerle insanların birbirine yardımcı olmasını sağlamaktır.</p>
+</div>
+</section>
+
+</main>
+
+<footer>
+cihanlooxorg © 2026<br>
+Bilgi paylaş, öğren, geliştir.
+</footer>
+
+</body>
+</html>index.html
